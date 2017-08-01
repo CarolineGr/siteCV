@@ -1,0 +1,19 @@
+
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: url('../img/fondNav.jpg');
+  background-repeat: no-repeat;
+  
+}
+
+.container{
+    padding: 50px auto;
+    margin: 50px auto;
+}
+
+
+button{
+    font-family: 'Lemonada', cursive, arial, sans-serif;
+}
+

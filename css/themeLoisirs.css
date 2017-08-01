@@ -1,0 +1,52 @@
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: black;
+}
+
+.container{
+    padding: 50px auto;
+    margin: 30px auto;
+    border : 3px blue ridge;
+    background-color: #2b542c;
+}
+
+h1{
+    font-family: 'Orbitron', arial, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 1em;
+    border: 3px blue ridge;
+    border-bottom-left-radius: 50% ;
+    border-bottom-right-radius: 50% ;
+    color: #269abc;
+    background-color: black;
+}
+
+.h2{
+    font-family: 'Orbitron', arial, sans-serif;
+    background-color: black;
+    border: 3px blue ridge;
+    text-align: center;
+}
+
+
+p{
+    font-family: 'Orbitron', arial, sans-serif;
+    font-size: 1.5em; 
+    color: #269abc;
+}
+
+#cartes1{
+    margin-bottom: 2em;
+    margin-left: 3em;
+}
+
+#retour{
+    font-family: 'Orbitron', arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: #337ab7;
+}
+

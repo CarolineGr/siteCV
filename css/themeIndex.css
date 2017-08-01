@@ -1,0 +1,27 @@
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: url('../img/backgroundIndex.jpg');
+}
+
+.container{
+    padding: 40px auto;
+    margin: 40px auto;
+}
+
+.h1{
+    font-family: 'Lemonada', cursive, arial, sans-serif;
+    font-size: 3em;
+    color: #222;
+}
+
+.h2{
+    font-family: 'Lemonada', cursive, arial, sans-serif;
+    font-size: 2em;
+    color: #3c3c3c;
+}
+
+button{
+    font-family: 'Lemonada', cursive, arial, sans-serif;
+    margin-right: 1em;
+}

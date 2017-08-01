@@ -1,0 +1,125 @@
+
+body {
+    padding: 0px;
+    background-color: #c0c0c0;     
+}
+
+.container{
+    padding: 50px 50px;
+    margin: 30px auto;
+    background-color: #f1f1de;
+    box-shadow: 5px 10px 40px 20px black;
+}
+
+header{
+    padding: 25px;
+    margin: 0px;
+    border: 2px darkviolet solid;
+    box-shadow: 5px 10px  15px 8px #245580;
+    background-image: url('../img/competences6.png'); 
+    position: relative;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#frise{
+    background: url('../img/competences8.png') repeat-y right top;
+    position: fixed;
+    top:0;
+    right: 0;
+    height: 100%;
+    width: 30px;
+}
+
+#frise2{
+    background: url('../img/competences8.png') repeat-y left top;
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 30px;
+}
+
+section{
+    padding: 30px 50px;
+    margin: 10px auto;
+    border: 2px darkslateblue dashed; 
+    position: relative;
+    width: 100%; 
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.sectionTitre{
+    background-image: url('../img/geek2.png');
+    background-repeat: repeat;
+}
+
+.section{
+    background-color: #bbc9d5;
+}
+
+h1{
+    font-family: 'Lemonada', cursive, arial, sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Lemonada', cursive, arial, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.h2{
+    font-family: 'Lemonada', cursive, arial, sans-serif;
+}
+
+p{
+    font-family: 'Lemonada', cursive, arial, sans-serif;
+    font-size: 1.5em; 
+    margin-left: 1em;
+}
+
+ul, li{
+    font-family: 'Lemonada', cursive, arial, sans-serif;
+    font-size: 1.2em;
+    margin-left: 1em;
+}
+
+ul{
+    margin-bottom: 2em;
+}
+
+.sl{
+    font-family: 'Lemonada', cursive, arial, sans-serif;
+    font-size: 1.2em;
+    margin-left: 1.6em;
+}
+
+#retour{
+    font-family: 'Lemonada', cursive, arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: #337ab7;
+}
+
+.souligne{
+    text-decoration: underline #000066;
+    font-style: italic;
+    color: #000066;
+}
+
+.souligneGras{
+    text-decoration: underline black;
+    font-weight: bold
+}
+
+#prog{
+    border: 2px black solid;
+}

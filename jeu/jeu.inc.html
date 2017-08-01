@@ -1,0 +1,87 @@
+
+<center>
+    <h1>Loisirs</h1>
+    <table width='80%'>
+        <tr>
+            <td><center><img src='jeu/dos.jpg' onclick='joue(0)' alt="carte à jouer"></center></td>
+            <td><center><img src='jeu/dos.jpg' onclick='joue(1)' alt="carte à jouer"></center></td>
+            <td><center><img src='jeu/dos.jpg' onclick='joue(2)' alt="carte à jouer"></center></td>
+            <td><center><img src='jeu/dos.jpg' onclick='joue(3)' alt="carte à jouer"></center></td>
+        </tr>
+        <tr>
+            <td><center><img src='jeu/dos.jpg' onclick='joue(4)' alt="carte à jouer"></center></td>
+            <td><center><img src='jeu/dos.jpg' onclick='joue(5)' alt="carte à jouer"></center></td>
+            <td><center><img src='jeu/dos.jpg' onclick='joue(6)' alt="carte à jouer"></center></td>
+            <td><center><img src='jeu/dos.jpg' onclick='joue(7)' alt="carte à jouer"></center></td>
+        </tr>
+    </table>
+</center>
+
+<script language='javascript'>
+    img=new Array(8);
+    for (i=0;i<4;i++){
+    img[i]=i+1;
+    img[i+4]=i+1;
+    }
+    for (i=0;i<8;i++){
+    a=rnd(8);
+    b=img[a];
+    img[a]=img[i];
+    img[i]=b;
+    }
+    nombre=0;
+    points=0;
+    tentatives=0;
+
+    function joue(i){
+        if (img[i]!=-1){
+            if (nombre==0){
+                nombre=1;
+                case1=i;
+                change(i,'jeu/'+img[i]+'.jpg',0);
+            }else if (nombre==1){
+                case2=i;
+                change(i,'jeu/'+img[i]+'.jpg',0);
+                if (img[case1]==img[case2]){
+                    points++;
+                    img[case1]=-1;
+                    img[case2]=-1;
+                    if (points==4){
+                        if(confirm("******** Bien joué ! ******** \nMaintenant voulez-vous avoir les détails sur ces cartes ?")){
+                                window.location.href="journaldunejoueuse.free.fr";
+                        }else{
+                                history.back;
+                        }
+                    }
+            }else{
+            setTimeout("change("+case1+",'jeu/dos.jpg',0);change(" +case2+",'jeu/dos.jpg',0);", 1000);
+            }
+            nombre=0;
+            }
+            tentatives++;
+        }
+    }
+
+    function change(image, j, avancement){
+        if (avancement<10){
+            document.images[image].width=120-avancement*10;
+        }else if (avancement==10){
+            document.images[image].src=j;
+        }else if (avancement<23){
+            document.images[image].width=(avancement-10)*10;
+        }
+        avancement++;
+        
+        if (avancement<23){
+            setTimeout("change("+image+", '"+j+"', "+avancement+");",10);
+        }
+    }
+
+    function rnd(n){
+        var temp = Math.random();
+        if (temp==1){ 
+            temp=0.9; 
+        }
+        return Math.floor(temp * n);
+    }
+</script>

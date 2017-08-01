@@ -1,0 +1,68 @@
+
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: url('../img/fondQuestionnaire.jpg');
+  background-repeat: repeat;
+}
+
+.container{
+    padding: 50px auto;
+    margin: 50px  auto;
+    width: 80%;
+}
+
+header{
+    padding: 50px auto;
+    margin: 50px auto;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 5px black;
+}
+
+section{
+    padding: 20px 25px;
+    margin: 50px auto;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 5px black;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive, arial, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    color: #222;
+    margin-top: 1em;
+    margin-bottom: 1em; 
+}
+
+.h2{
+   font-family: 'Dancing Script', cursive, arial, sans-serif; 
+   background-color: whitesmoke;
+    box-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+
+p{
+    font-family: 'Dancing Script', cursive, arial, sans-serif;
+    font-size: 1.5em; 
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.souligne{
+    text-decoration: black underline;
+    font-weight: bold;
+}
+
+.italique{
+    font-style: italic;
+}
+
+#retour{
+    font-family: 'Dancing Script', cursive, arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: #337ab7;
+}

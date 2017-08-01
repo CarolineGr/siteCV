@@ -1,0 +1,74 @@
+
+/* 
+    Created on : 26 juil. 2017, 16:10:10
+    Author     : Caroline Grimault
+*/
+
+
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: black;
+}
+
+.container{
+    padding: 50px auto;
+    margin: 30px 50px;
+    border: 3px black dashed;
+    background-color: peachpuff;
+}
+
+header{
+    border: 14px black groove;
+    background-color: black;
+    background-image: url('../img/fondMusique.jpg');
+    background-repeat: repeat;
+    background-position: center ;
+    height: 18em;
+    margin-bottom: 4em;
+}
+
+h1{
+    font-family: 'Orbitron', arial, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    color: #222;
+    margin-top: 1em;
+    margin-bottom: 1em; 
+}
+
+h2{
+    font-family: 'Orbitron', arial, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.h2{
+      font-family: 'Orbitron', arial, sans-serif;
+}
+
+p{
+    font-family: 'Lemonada', cursive, arial, sans-serif;
+    font-size: 1.5em; 
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+li{
+    font-family: 'Lemonada', cursive, arial, sans-serif;
+    font-size: 1.5em; 
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+#retour{
+    font-family: 'Orbitron', arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: #337ab7;
+}
+
+.souligne{
+    text-decoration: underline #5e5e5e;;
+}

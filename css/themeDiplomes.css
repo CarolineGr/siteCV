@@ -1,0 +1,50 @@
+
+body {
+    margin: 0px;
+    padding: 0px;  
+    background-color: black;
+    background-repeat: no-repeat;
+    width: 100%;  
+}
+
+.container{
+    padding: 30px auto;
+    margin: 30px auto;
+    border: #c0a16b 3px dotted;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive, arial, sans-serif;
+    font-size: 6em;
+    text-align: center;
+    font-weight: bold;
+    color:#999999 ;
+}
+
+h2{
+    font-family: 'Dancing Script', cursive, arial, sans-serif;
+    font-weight: bold;
+    font-size: 2.8em;
+    margin-left: 1em;
+    color:#999999 ;
+}
+
+.h2{
+    font-family: 'Dancing Script', cursive, arial, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    color:#999999 ;
+}
+    
+h3{
+    font-family: 'Dancing Script', cursive, arial, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color:#999999 ;
+    margin-left: 1em;
+}
+
+.souligne{
+    text-decoration: underline #999999 ;;;
+}
+
