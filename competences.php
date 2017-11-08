@@ -1,4 +1,4 @@
-<?php include_once './debutCompetences.inc.php'; ?>
+<?php require_once './debutCompetences.inc.php'; ?>
 
 <div class="container">
     <div id="frise" class="frise"></div>
@@ -35,11 +35,11 @@
             <p><span class="souligneGras">Langages :</span> HTML/CSS, PHP, JAVA, JavaScript, Python</p>
             <p><span class="souligneGras">Base de données :</span> mySQL</p>
             <p><span class="souligneGras">Serveur web :</span> Apache</p>
-            <p><span class="souligneGras">Outils de développement :</span> WAMP, Eclipse, NetBeans, Bitbucket/GIT, Bootstrap</p>
+            <p><span class="souligneGras">Outils de développement :</span> WAMP, Eclipse, NetBeans, Bitbucket/GIT, Bootstrap, AngularJS, Node.js, CodeIgniter</p>
             <p><span class="souligneGras">Analyse / Modélisation :</span> Merise, UML, MySQL Workbench, analyse des besoins clients,
                 rédaction de spécifications et cahier des charges, rédaction de documentations utilisateurs.</p>
             <p><span class="souligneGras">Virtualisation :</span> Oracle Virtualbox</p>
-            <p><span class="souligneGras">Systèmes d'exploitation :</span> Windows 7,8,10, (Linux Ubuntu ne serait tarder à arriver officiellement dans la liste)</p>
+            <p><span class="souligneGras">Systèmes d'exploitation :</span> Windows 7,8,10, Linux Ubuntu</p>
             <p><span class="souligneGras">Réalisations scolaires :</span>
                 <ul>
                     <li><span class="souligne">Lieu :</span> Ecole GRETA</li>
@@ -100,7 +100,7 @@
     </section>
     
     <div class="center-block">
-        <img class="img-responsive center-block" src="../projetCV/bootstrap/img/competences2.png" alt="triples engrenages">
+        <img class="img-responsive center-block" src="../bootstrap/img/competences2.png" alt="triples engrenages">
     </div>
  
     <!-- partie commerciale-->
@@ -122,7 +122,7 @@
     </section>
     
     <div class="center-block">
-        <img class="img-responsive center-block" src="../projetCV/bootstrap/img/competences2.png" alt="triples engrenages">
+        <img class="img-responsive center-block" src="../bootstrap/img/competences2.png" alt="triples engrenages">
     </div>
     
     <!-- partie temperament-->
@@ -159,13 +159,13 @@
             
             <div class="row">
                 <div class="col-lg-offset-2 col-lg-4">
-                    <img class="img-responsive center-block" onmouseover="this.style.border='3px red solid'" onmouseout="this.style.border=''" onclick="window.open('./bootstrap/docs/CertificatTravailKern.pdf','_blank')"alt="attestation ancien employeur" src="../projetCV/bootstrap/docs/attestationTravailKernMini.png">
+                    <img id="attest" class="img-responsive center-block" onmouseover="this.style.border='3px red solid'" onmouseout="this.style.border=''" onclick="window.open('../bootstrap/docs/CertificatTravailKern.pdf','_blank')" alt="attestation ancien employeur" src="../bootstrap/docs/attestationTravailKernMini.png">
                     <br>
                 </div>
             </div>
         </div> 
         <div class="row">
-            <img class="img-responsive center-block" alt="logo garantie qualité" src="../projetCV/bootstrap/img/competences4.png">
+            <img class="img-responsive center-block" alt="logo garantie qualité" src="../bootstrap/img/competences4.png">
         </div>
         
     </section>
@@ -178,4 +178,4 @@
     </div>
 </div>
 
-<?php include_once './fin.inc.php'; ?>
+<?php require_once './fin.inc.php'; ?>
